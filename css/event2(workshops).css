@@ -1,0 +1,285 @@
+/*Workshosp Page*/
+
+.ds1{
+    margin-top: 40px;
+    position: relative;
+    font-size: 20px;
+    font-family: "Copperplate",serif;
+    background-color: black;
+}
+
+.h2ws{
+    color: white;
+    margin-left: 100px;
+}
+
+.ws_h1{
+    margin-left: 50px;
+    font-size: 40px;
+    color: black;
+    font-family: "Lucida Console", serif;
+}
+
+.ws_card{
+    background-color: #F0F0F0;
+    width: 600px;
+    height: 250px;
+    margin-left: 90px;
+    border-radius: 5px;
+    animation-name: card;
+    animation-duration: 4s;
+}
+
+@keyframes card {
+    from {background-color:#F0F0F0 ;}
+    to {background-color: yellow;}
+  }
+
+
+.ws_d1{
+    padding-top: 40px;
+    font-style: italic;
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+.wsi1{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    margin-left:900px;
+    margin-top: -290px;
+    box-shadow: 20px 40px 30px white; 
+}
+
+.wsi2{
+    position: absolute;
+    margin-top: 70px;
+    height: 400px;
+    width: 600px;
+}
+
+.ws_h2{
+    font-size: 35px;
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 160px;
+}
+
+.ws_s{
+    font-size: 23px;
+    margin-left: 500px;
+    margin-top: 260px;
+}
+
+.wsi3{
+    position: absolute;
+    margin-top:100px;
+    height: 200px;
+    width: 350px;
+    box-shadow: 20px 40px 30px white;
+}
+
+.wsi4{
+    position: absolute;
+    margin-left: 980px;
+    margin-top:100px;
+    height: 200px;
+    width: 350px;
+    box-shadow: -20px 40px 30px white;
+}
+
+.wsi5{
+    position: absolute;
+    margin-left: 500px;
+    margin-top:130px;
+    height: 430px;
+    width: 330px;
+    box-shadow: -20px -40px 90px black;
+}
+
+.wsi6{
+    position: absolute;
+    margin-left: 80px;
+    margin-top:460px;
+    height: 260px;
+    width: 210px;
+    box-shadow: 20px 40px 30px white;
+}
+
+.wsi7{
+    position: absolute;
+    margin-left: 1050px;
+    margin-top:460px;
+    height: 260px;
+    width: 210px;
+    box-shadow: -20px 40px 30px white;
+}
+
+.wsi8{
+    position: absolute;
+    margin-top:900px;
+    height: 200px;
+    width: 350px;
+    box-shadow: 20px 40px 30px white;
+}
+
+.wsi9{
+    position: absolute;
+    margin-left: 500px;
+    margin-top:600px;
+    height: 430px;
+    width: 330px;
+    box-shadow: -20px 40px 90px black;
+}
+
+.wsi10{
+    position: absolute;
+    margin-left: 980px;
+    margin-top:900px;
+    height: 200px;
+    width: 350px;
+    box-shadow: -20px 40px 30px white;
+}
+
+
+@media (max-width: 700px) {
+
+.ds1{
+    margin-top: 10px;
+}
+
+.h2ws{
+    margin-left: 20px;
+    font-size: 18px;
+    color: #F0F0F0;
+}
+        
+.ws_h1{
+    margin-left: 30px;
+    font-size: 30px;
+    color: black;
+    font-family: "Lucida Console", serif;
+}
+        
+.ws_card{
+    background-color: #F0F0F0;
+    width: 200px;
+    height: auto;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+        
+.ws_d1{
+    padding-top: 20px;
+    font-style: italic;
+    margin-left: 20px;
+    font-size: 14px;
+}
+        
+.wsi1{
+    position: relative;
+    height: 200px;
+    width: 150px;
+    margin-left:220px;
+    margin-top: -290px;
+    box-shadow: 20px 40px 30px;
+}
+        
+.wsi1:hover {
+    transform: translateX(50px) ;
+    transform:scale(1.1,1.1);
+ }
+        
+ .wsi2{
+    position: relative;
+    margin-left: 00px;
+    margin-top: 30px;
+    height: 280px;
+    width: 250px;
+}
+        
+.ws_h2{
+    font-size: 18px;
+    position: relative;
+    margin-left: 200px;
+    margin-top:-190px;
+}
+        
+.ws_s{
+    font-size: 12px;
+    margin-left:190px;
+    margin-top: 0px;
+}
+        
+.wsi3{
+    position: relative;
+    margin-top:50px;
+    margin-left: 10px;
+    height: 200px;
+    width: 350px;
+    box-shadow: 20px 40px 30px;
+}
+        
+.wsi4{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 15px;    
+    height: 200px;
+    width: 350px;
+    box-shadow: -20px 40px 30px;
+}
+        
+.wsi5{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 430px;
+    width: 330px;
+    box-shadow: -20px -40px 90px whitesmoke;
+}
+        
+.wsi6{
+    position: relative;
+    margin-left: 75px;
+    margin-top: 15px;
+    height: 260px;
+    width: 210px;
+    box-shadow: 20px 40px 30px;
+}
+        
+.wsi7{
+    position: relative;
+    margin-left: 75px;
+    margin-top: 15px;
+    height: 260px;
+    width: 210px;
+    box-shadow: -20px 40px 30px;
+}
+        
+.wsi8{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 15px;
+    height: 200px;
+    width: 350px;
+    box-shadow: 20px 40px 30px;
+}
+        
+.wsi9{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 430px;
+    width: 330px;
+    box-shadow: -20px 40px 90px whitesmoke;
+}
+        
+.wsi10{ 
+    position: relative;
+    margin-left: 10px;
+    margin-top: 15px;
+    height: 200px;
+    box-shadow: -20px 40px 30px;
+}  
+}
